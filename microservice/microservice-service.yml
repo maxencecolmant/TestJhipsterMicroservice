@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: microservice
+  namespace: jhipster
+  labels:
+    app: microservice
+spec:
+  selector:
+    app: microservice
+  ports:
+    - name: http
+      port: 8081

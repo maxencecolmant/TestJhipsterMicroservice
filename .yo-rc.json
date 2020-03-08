@@ -35,6 +35,17 @@
     "languages": ["fr", "en"],
     "blueprints": [],
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "appsFolders": ["microservice"],
+    "directoryPath": "../",
+    "dockerRepositoryName": "",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "Ingress",
+    "kubernetesUseDynamicStorage": false,
+    "ingressType": "nginx",
+    "ingressDomain": "192.168.99.100.nip.io",
+    "monitoring": "no",
+    "istio": false
   }
 }
